@@ -1,0 +1,26 @@
+:root {
+    --header-colour: #F2542D;
+    --primary-bg-colour: #E0E0CE;
+    --footer-colour: #BFBF9B;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.fuller-height {
+    height: 92vh;
+    display: block;
+}
+
+.header-bg {
+    background-color: var(--header-colour);
+}
+
+.primary-bg {
+    background-color: var(--primary-bg-colour);
+}
+
+.footer-bg {
+    background-color: var(--footer-colour);
+}

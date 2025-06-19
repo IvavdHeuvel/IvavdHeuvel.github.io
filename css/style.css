@@ -9,11 +9,11 @@
 }
 
 .full-height {
-    height: 100%;
+    height: 79vh;
 }
 
 .fuller-height {
-    height: 79vh;
+    height: 100%;
     /* display: block; */
 }
 
@@ -27,4 +27,10 @@
 
 .footer-bg {
     background-color: var(--footer-colour);
+}
+
+@media screen and (min-width: 768px) {
+    .fuller-height {
+        height: 79vh;
+    }
 }
